@@ -14,12 +14,26 @@ meta-spec:
 name: Task-BeLike-Shantanu
 requires:
   Catalyst: 5.90015
+  Dist::Zilla: 4.300020
+  Dist::Zilla::Plugin::Git::CommitBuild: 1.121820
+  Dist::Zilla::Plugin::Git::NextVersion: 1.121820
+  Dist::Zilla::Plugin::InstallGuide: 1.200000
+  Dist::Zilla::Plugin::LatestPrereqs: 0.4
+  Dist::Zilla::Plugin::MetaConfig: 4.300020
+  Dist::Zilla::Plugin::MetaJSON: 4.300020
+  Dist::Zilla::Plugin::MetaResources: 4.300020
+  Dist::Zilla::Plugin::NextRelease: 4.300020
+  Dist::Zilla::Plugin::PkgVersion: 4.300020
+  Dist::Zilla::Plugin::Prereqs: 4.300020
+  Dist::Zilla::PluginBundle::Basic: 4.300020
+  Dist::Zilla::PluginBundle::Git: 1.121820
+  Starman: 0.3001
   YAML: 0.81
   YAML::XS: 0.38
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-Shantanu/
   repository: http://github.com/shantanubhadoria/task--belike--shantanu.git
-version: 0.002
+version: 0.003
 x_Dist_Zilla:
   plugins:
     -
