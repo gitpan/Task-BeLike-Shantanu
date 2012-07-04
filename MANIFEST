@@ -1,0 +1,9 @@
+INSTALL
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/Task/BeLike/Shantanu.pm
