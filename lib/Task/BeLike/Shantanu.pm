@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::BeLike::Shantanu;
 {
-  $Task::BeLike::Shantanu::VERSION = '0.001';
+  $Task::BeLike::Shantanu::VERSION = '0.002';
 }
 
 # ABSTRACT: All my default Modules in a perl installation

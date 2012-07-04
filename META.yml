@@ -19,7 +19,7 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-Shantanu/
   repository: http://github.com/shantanubhadoria/task--belike--shantanu.git
-version: 0.001
+version: 0.002
 x_Dist_Zilla:
   plugins:
     -
