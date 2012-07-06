@@ -21,6 +21,9 @@ my %WriteMakefileArgs = (
   "NAME" => "Task::BeLike::Shantanu",
   "PREREQ_PM" => {
     "Catalyst" => "5.90015",
+    "Catalyst::Runtime" => "5.90015",
+    "Catalyst::View::CSS::Minifier::XS" => "2.000000",
+    "Catalyst::View::JavaScript::Minifier::XS" => "2.101000",
     "Dist::Zilla" => "4.300020",
     "Dist::Zilla::Plugin::Git::CommitBuild" => "1.121820",
     "Dist::Zilla::Plugin::Git::NextVersion" => "1.121820",
@@ -34,11 +37,16 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::Plugin::Prereqs" => "4.300020",
     "Dist::Zilla::PluginBundle::Basic" => "4.300020",
     "Dist::Zilla::PluginBundle::Git" => "1.121820",
+    "Log::Dispatch::FileRotate" => "1.19",
+    "Log::Log4perl" => "1.37",
+    "Log::Log4perl::Catalyst" => 0,
+    "Moose" => "2.0603",
+    "MooseX::MarkAsMethods" => "0.15",
     "Starman" => "0.3001",
     "YAML" => "0.81",
     "YAML::XS" => "0.38"
   },
-  "VERSION" => "0.003",
+  "VERSION" => "0.005",
   "test" => {
     "TESTS" => ""
   }
