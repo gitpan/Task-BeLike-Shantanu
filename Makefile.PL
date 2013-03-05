@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.006;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -11,7 +11,13 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "All my default Modules in a perl installation",
   "AUTHOR" => "Shantanu Bhadoria <shantanu\@cpan.org>",
-  "BUILD_REQUIRES" => {},
+  "BUILD_REQUIRES" => {
+    "File::Find" => 0,
+    "File::Spec::Functions" => 0,
+    "File::Temp" => 0,
+    "List::Util" => 0,
+    "Test::More" => 0
+  },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -20,35 +26,44 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Task::BeLike::Shantanu",
   "PREREQ_PM" => {
-    "Catalyst" => "5.90015",
-    "Catalyst::Runtime" => "5.90015",
-    "Catalyst::View::CSS::Minifier::XS" => "2.000000",
-    "Catalyst::View::JavaScript::Minifier::XS" => "2.101000",
-    "Dist::Zilla" => "4.300020",
-    "Dist::Zilla::Plugin::Git::CommitBuild" => "1.121820",
-    "Dist::Zilla::Plugin::Git::NextVersion" => "1.121820",
-    "Dist::Zilla::Plugin::InstallGuide" => "1.200000",
-    "Dist::Zilla::Plugin::LatestPrereqs" => "0.4",
-    "Dist::Zilla::Plugin::MetaConfig" => "4.300020",
-    "Dist::Zilla::Plugin::MetaJSON" => "4.300020",
-    "Dist::Zilla::Plugin::MetaResources" => "4.300020",
-    "Dist::Zilla::Plugin::NextRelease" => "4.300020",
-    "Dist::Zilla::Plugin::PkgVersion" => "4.300020",
-    "Dist::Zilla::Plugin::Prereqs" => "4.300020",
-    "Dist::Zilla::PluginBundle::Basic" => "4.300020",
-    "Dist::Zilla::PluginBundle::Git" => "1.121820",
-    "Log::Dispatch::FileRotate" => "1.19",
-    "Log::Log4perl" => "1.37",
-    "Log::Log4perl::Catalyst" => 0,
-    "Moose" => "2.0603",
-    "MooseX::MarkAsMethods" => "0.15",
-    "Starman" => "0.3001",
-    "YAML" => "0.81",
-    "YAML::XS" => "0.38"
+    "Acme::CPANAuthors::India" => 0,
+    "App::cpanminus" => 0,
+    "App::cpanoutdated" => 0,
+    "Catalyst" => "5.90000",
+    "DBIx::Class" => 0,
+    "Data::Dumper" => "2.14",
+    "Device::SerialPort" => 0,
+    "Digest::MD5" => 0,
+    "Dist::Zilla" => "4.300000",
+    "Dist::Zilla::PluginBundle::SHANTANU" => 0,
+    "ExtUtils::MakeMaker" => "6.60",
+    "ExtUtils::ParseXS" => "3.10",
+    "File::ChangeNotify" => "0.23",
+    "File::Copy" => "2.20",
+    "File::Find::Rule" => "0.33",
+    "File::HomeDir" => "1.00",
+    "File::Spec" => "3.40",
+    "File::UStore" => 0,
+    "IO::Handle" => 0,
+    "IO::Socket" => 0,
+    "JSON::XS" => 0,
+    "Log::Log4perl" => "1.40",
+    "Moose" => "2.06",
+    "Net::IP" => 0,
+    "Perl::Critic" => 0,
+    "Perl::Tidy" => 0,
+    "Pod::Weaver::PluginBundle::SHANTANU" => 0,
+    "Printer::Thermal" => 0,
+    "Starman" => "0.30",
+    "YAML" => "0.84",
+    "YAML::XS" => "0.38",
+    "autodie" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  "VERSION" => "0.005",
+  "VERSION" => "0.05",
   "test" => {
-    "TESTS" => ""
+    "TESTS" => "t/*.t"
   }
 );
 
