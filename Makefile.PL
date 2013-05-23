@@ -50,6 +50,7 @@ my %WriteMakefileArgs = (
     "Log::Log4perl" => "1.40",
     "Moose" => "2.06",
     "Net::IP" => 0,
+    "Net::SSLeay" => 0,
     "Perl::Critic" => 0,
     "Perl::Tidy" => 0,
     "Pod::Weaver::PluginBundle::SHANTANU" => 0,
@@ -61,7 +62,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.05",
+  "VERSION" => "0.06",
   "test" => {
     "TESTS" => "t/*.t"
   }

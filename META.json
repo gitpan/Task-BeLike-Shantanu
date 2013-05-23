@@ -4,7 +4,7 @@
       "Shantanu Bhadoria <shantanu@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.130880",
    "license" : [
       "perl_5"
    ],
@@ -64,6 +64,7 @@
             "Log::Log4perl" : "1.40",
             "Moose" : "2.06",
             "Net::IP" : "0",
+            "Net::SSLeay" : "0",
             "Perl::Critic" : "0",
             "Perl::Tidy" : "0",
             "Pod::Weaver::PluginBundle::SHANTANU" : "0",
@@ -90,7 +91,7 @@
    "provides" : {
       "Task::BeLike::Shantanu" : {
          "file" : "lib/Task/BeLike/Shantanu.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
@@ -105,6 +106,6 @@
          "web" : "https://github.com/shantanubhadoria/task-belike-shantanu"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
 

@@ -5,7 +5,7 @@ package Task::BeLike::Shantanu;
 
 # PODNAME: Task::BeLike::Shantanu
 # ABSTRACT: All my default Modules in a perl installation
-our $VERSION = '0.05'; # VERSION
+our $VERSION = '0.06'; # VERSION
 # Dependencies
 use Acme::CPANAuthors::India;
 use Dist::Zilla::PluginBundle::SHANTANU;
@@ -36,6 +36,7 @@ use JSON::XS;
 use Log::Log4perl 1.40;
 use Moose 2.06;
 use Net::IP;
+use Net::SSLeay;
 use Perl::Critic;
 use Perl::Tidy;
 use Starman 0.30;
@@ -54,7 +55,7 @@ Task::BeLike::Shantanu - All my default Modules in a perl installation
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
 

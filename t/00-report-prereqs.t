@@ -38,6 +38,7 @@ my @modules = qw(
   Log::Log4perl
   Moose
   Net::IP
+  Net::SSLeay
   Perl::Critic
   Perl::Tidy
   Pod::Weaver::PluginBundle::SHANTANU
