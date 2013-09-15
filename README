@@ -2,7 +2,7 @@ NAME
     Task::BeLike::Shantanu - All my default Modules in a perl installation
 
 VERSION
-    version 0.06
+    version 0.07
 
 SUPPORT
   Bugs / Feature Requests
@@ -20,6 +20,9 @@ SUPPORT
 
 AUTHOR
     Shantanu Bhadoria <shantanu@cpan.org>
+
+CONTRIBUTOR
+    Shantanu <shantanu@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2013 by Shantanu Bhadoria.

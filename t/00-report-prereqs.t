@@ -13,9 +13,20 @@ my @modules = qw(
     Acme::CPANAuthors::India
   App::cpanminus
   App::cpanoutdated
+  Authen::Passphrase
   Catalyst
+  Catalyst::Plugin::Assets
+  Catalyst::Plugin::Authentication
+  Catalyst::Plugin::Session
+  Catalyst::Plugin::Session::Store::FastMmap
+  Catalyst::Plugin::StatusMessage
+  Catalyst::Runtime
   DBIx::Class
+  DBIx::Class::InflateColumn::Authen::Passphrase
+  DBIx::Class::PassphraseColumn
+  DBIx::Class::Validation
   Data::Dumper
+  DateTime::Format::MySQL
   Device::SerialPort
   Digest::MD5
   Dist::Zilla
@@ -31,6 +42,7 @@ my @modules = qw(
   File::Spec::Functions
   File::Temp
   File::UStore
+  HTML::FormFu::Constraint::DBIC::Unique
   IO::Handle
   IO::Socket
   JSON::XS
@@ -42,7 +54,6 @@ my @modules = qw(
   Perl::Critic
   Perl::Tidy
   Pod::Weaver::PluginBundle::SHANTANU
-  Printer::Thermal
   Starman
   Test::More
   YAML
