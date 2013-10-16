@@ -5,7 +5,7 @@ package Task::BeLike::Shantanu;
 
 # PODNAME: Task::BeLike::Shantanu
 # ABSTRACT: All my default Modules in a perl installation
-our $VERSION = '0.09'; # VERSION
+our $VERSION = '0.10'; # VERSION
 # Dependencies
 
 use 5.010;
@@ -16,7 +16,6 @@ use Pod::Weaver::PluginBundle::SHANTANU;
 
 use autodie;
 use App::cpanminus;
-use App::cpanoutdated;
 use Authen::Passphrase;
 use Catalyst 5.90000;
 use Catalyst::Plugin::Assets;
@@ -24,10 +23,8 @@ use Catalyst::Plugin::Authentication;
 use Catalyst::Plugin::Session;
 use Catalyst::Plugin::Session::Store::FastMmap;
 use Catalyst::Plugin::StatusMessage;
-use Catalyst::Runtime;
 use Data::Dumper 2.14;
 use DateTime::Format::MySQL;
-use Device::SerialPort;
 use DBIx::Class;
 use DBIx::Class::PassphraseColumn;
 use DBIx::Class::Validation;
@@ -41,15 +38,10 @@ use File::Copy 2.20;
 use File::Find::Rule 0.33;
 use File::HomeDir 1.00;
 use File::Spec 3.40;
-use HTML::FormFu::Constraint::DBIC::Unique;
-use IO::Handle;
-use IO::Socket;
 use JSON::XS;
 2.33;
 use Log::Log4perl 1.40;
 use Moose 2.06;
-use Net::IP;
-use Net::SSLeay;
 use Perl::Critic;
 use Perl::Tidy;
 use Test::Pod 1.48;
@@ -70,7 +62,7 @@ Task::BeLike::Shantanu - All my default Modules in a perl installation
 
 =head1 VERSION
 
-version 0.09
+version 0.10
 
 =for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
 

@@ -12,7 +12,6 @@ use List::Util qw/max/;
 my @modules = qw(
     Acme::CPANAuthors::India
   App::cpanminus
-  App::cpanoutdated
   Authen::Passphrase
   Catalyst
   Catalyst::Plugin::Assets
@@ -20,14 +19,12 @@ my @modules = qw(
   Catalyst::Plugin::Session
   Catalyst::Plugin::Session::Store::FastMmap
   Catalyst::Plugin::StatusMessage
-  Catalyst::Runtime
   DBIx::Class
   DBIx::Class::InflateColumn::Authen::Passphrase
   DBIx::Class::PassphraseColumn
   DBIx::Class::Validation
   Data::Dumper
   DateTime::Format::MySQL
-  Device::SerialPort
   Digest::MD5
   Dist::Zilla
   Dist::Zilla::PluginBundle::SHANTANU
@@ -42,15 +39,10 @@ my @modules = qw(
   File::Spec::Functions
   File::Temp
   File::UStore
-  HTML::FormFu::Constraint::DBIC::Unique
-  IO::Handle
-  IO::Socket
   JSON::XS
   List::Util
   Log::Log4perl
   Moose
-  Net::IP
-  Net::SSLeay
   Perl::Critic
   Perl::Tidy
   Pod::Simple

@@ -1,5 +1,11 @@
 Changelog for Task-BeLike-Shantanu
 
+0.10 2013-10-16T07:01:23
+ - Removed some deps not in use anymore [Shantanu Bhadoria]
+
+0.09 2013-10-16T04:57:29
+ - v0.09 [Shantanu Bhadoria]
+
 0.08 2013-10-16T04:30:43
  - v0.08 [Shantanu Bhadoria]
  - Added Pod::Simple to pass kwalitee tests properly [Shantanu Bhadoria]
