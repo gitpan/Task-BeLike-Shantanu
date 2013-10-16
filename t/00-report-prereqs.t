@@ -53,9 +53,11 @@ my @modules = qw(
   Net::SSLeay
   Perl::Critic
   Perl::Tidy
+  Pod::Simple
   Pod::Weaver::PluginBundle::SHANTANU
   Starman
   Test::More
+  Test::Pod
   YAML
   YAML::XS
   autodie

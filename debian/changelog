@@ -1,0 +1,52 @@
+task-belike-shantanu (0.08) stable; urgency=low
+  * Added Pod::Simple to pass kwalitee tests properly 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Wed, 16 Oct 2013 12:04:57 -0000
+
+task-belike-shantanu (release-0.07) stable; urgency=low
+  * v0.07
+  - remove Printer::Thermal [Shantanu]
+  - refactor distro [Shantanu]
+  - Merge branch 'master' of
+  github.com:shantanubhadoria/Task-BeLike-Shantanu [Shantanu]
+  - refactor distro [Shantanu]
+  - Bump Changes [Shantanu Bhadoria] 
+  * remove Printer::Thermal 
+  * refactor distro 
+  * Merge branch 'master' of
+    github.com:shantanubhadoria/Task-BeLike-Shantanu 
+  * refactor distro 
+  * Bump Changes 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Sun, 15 Sep 2013 11:40:03 -0000
+
+task-belike-shantanu (release-0.06) stable; urgency=low
+  * v0.06
+  - 2013-05-23 14:14:49 Asia/Singapore 
+  * Added Net::SSLeay to prereqs 
+  * Bump Changes 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Thu, 23 May 2013 14:15:51 -0000
+
+task-belike-shantanu (release-0.05) stable; urgency=low
+  * v0.05
+  - 2013-03-05 23:20:32 Asia/Singapore 
+  * Removed unused modules 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Tue, 05 Mar 2013 23:21:07 -0000
+
+task-belike-shantanu (release-0.04) stable; urgency=low
+  * Adding Changes 
+  * Moved to Shantanu Plugin bundle for Dist::Zilla 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Tue, 05 Mar 2013 23:02:00 -0000
+
+task-belike-shantanu (release-0.004) stable; urgency=low
+  * Moved to Shantanu Plugin bundle for Dist::Zilla 
+  * adding Gitignore 
+  * Added Version Tag 
+  * Adding Basic Files to build dependencies for the Distro 
+  * First Commit 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Tue, 05 Mar 2013 22:54:40 -0000
+
