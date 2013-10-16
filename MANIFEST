@@ -5,8 +5,6 @@ META.json
 META.yml
 Makefile.PL
 README
-debian/changelog
-debian/control
 lib/Task/BeLike/Shantanu.pm
 t/00-compile.t
 t/00-report-prereqs.t

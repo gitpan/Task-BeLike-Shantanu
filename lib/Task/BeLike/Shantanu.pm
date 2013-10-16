@@ -5,7 +5,7 @@ package Task::BeLike::Shantanu;
 
 # PODNAME: Task::BeLike::Shantanu
 # ABSTRACT: All my default Modules in a perl installation
-our $VERSION = '0.08'; # VERSION
+our $VERSION = '0.09'; # VERSION
 # Dependencies
 
 use 5.010;
@@ -70,7 +70,7 @@ Task::BeLike::Shantanu - All my default Modules in a perl installation
 
 =head1 VERSION
 
-version 0.08
+version 0.09
 
 =for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
 

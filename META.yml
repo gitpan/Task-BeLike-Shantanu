@@ -29,7 +29,7 @@ no_index:
 provides:
   Task::BeLike::Shantanu:
     file: lib/Task/BeLike/Shantanu.pm
-    version: 0.08
+    version: 0.09
 requires:
   Acme::CPANAuthors::India: 0
   App::cpanminus: 0
@@ -84,6 +84,6 @@ resources:
   bugtracker: https://github.com/shantanubhadoria/task-belike-shantanu/issues
   homepage: https://metacpan.org/release/Task-BeLike-Shantanu
   repository: git://github.com/shantanubhadoria/task-belike-shantanu.git
-version: 0.08
+version: 0.09
 x_contributors:
   - 'Shantanu <shantanu@cpan.org>'
